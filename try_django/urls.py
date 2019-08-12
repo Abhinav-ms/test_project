@@ -33,5 +33,5 @@ urlpatterns = [
     path('contact/', contact_page),
     path('example/', example_page),
     path('admin/', admin.site.urls),
-    path('blog/', blog_post_detail_page),
+    path('blog/<int:post_id>', blog_post_detail_page),
 ]
