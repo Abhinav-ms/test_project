@@ -36,7 +36,7 @@ urlpatterns = [
     # re_path(r'^about/$', about_page),
     path('contact/', contact_page),
     # path('example/', example_page),
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     # path('blog/<str:slug>/', blog_post_detail_page),
     # path('blog/', blog_post_list_view),
     path('blog-new/', blog_post_create_view),
